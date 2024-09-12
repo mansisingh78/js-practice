@@ -60,3 +60,39 @@ let obj = {
 };
 console.log("the cost of", obj.item, "is", obj.price, "rupees");
 console.log(`the cost of ${obj.item} is ${obj.price} rupees`);
+
+// upper or lowercase
+let strs = "Apna college";
+console.log(strs.toUpperCase());
+console.log(strs.toLowerCase());
+
+//trim method
+//removes whitespaces
+let strr = "   apna college js     ";
+console.log(strr.trim());
+
+// slice (start,end?)//returns part of string
+let sttr = "0123456";
+console.log(sttr.slice(0, 5));
+
+//concat// joins str2 with str1
+
+let str1 = "apna";
+let str2 = "college";
+
+let res = str1.concat(str2);
+//2nd method
+let ress = str1 + str2;
+// 3rd method
+let rees = "i am learning coding from " + str1 + str2;
+console.log(res);
+console.log(ress);
+console.log(rees);
+
+// replace //(searchVal,newVal)
+let name = "hello";
+console.log(name.replace("h", "y"));
+
+// charAt(idx)
+let strss = "ilovejs";
+console.log(strss.charAt(2)); //output o
